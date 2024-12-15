@@ -1,0 +1,62 @@
+/* Widescreen */
+@media(min-width: 1100px) {
+  /* Adjust icon placement */
+  #what .items .item {
+    display: flex;
+    text-align: left;
+  }
+
+  #what .items .item i {
+    margin-right: 1.5rem;  /* Slightly more spacing for widescreen */
+    align-self: center;
+    margin-bottom: 0;
+  }
+
+  #who {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+  }
+
+  #who .who-img {
+    background: url("../img/people.jpg") no-repeat center center/cover;
+    height: 400px;
+    flex: 1;
+  }
+
+  #who .who-text {
+    flex: 2;
+    padding-left: 2rem;
+  }
+
+  #clients .items {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #clients .items img {
+    width: 20%;  /* Spread out logos more evenly */
+    height: auto;
+  }
+
+  #contact .map {
+    flex: 2;
+  }
+
+  #contact .contact-form {
+    flex: 1;
+  }
+
+  .m-heading {
+    font-size: 2.5rem; /* Increase font size for widescreens */
+  }
+
+  .btn {
+    padding: 0.75rem 2rem;
+  }
+
+  .container {
+    padding: 0 4rem; /* Increase container padding */
+  }
+}
+  
